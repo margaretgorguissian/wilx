@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wilx</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="style.css"/>
+    <script src="client.js"></script>
+</head>
+
+<body>
+<div id="container">
+  <h1 id="main-heading">Wilx</h1>
+  <div class="row">
+      <h2>Squat</h2>
+      <input type="number" id="squatReps" min="1" max="120" placeholder="sets">
+      <input type="number" id="squatWeight" min="0" max="600" placeholder="reps">
+  </div>
+  <div class="row">
+      <h2>Bench</h2>
+      <input type="number" id="benchReps" min="1" max="120" placeholder="sets">
+      <input type="number" id="benchWeight" min="0" max="600" placeholder="reps">
+  </div>
+  <div class ="row">
+      <h2>Deadlift</h2>
+      <input type="number" id="dlReps" min="1" max="120" placeholder="sets">
+      <input type="number" id="dlWeight" min="0" max="600" placeholder="reps">
+  </div>
+  <div class ="row">
+      <h2>Sex</h2>
+      <input type="radio" id="radio1" name="sex" value="male">
+        <label for="radio1">Male</label>
+      <input type="radio" id="radio2" name="sex" value="female">
+        <label for="radio2">Female</label>
+  </div>
+  <div class ="row">
+      <h2>Units</h2>
+      <input type="radio" id="radio3" name="unit" value="lb">
+        <label for="radio3">pounds</label>
+      <input type="radio" id="radio4" name="unit" value="kg">
+        <label for="radio4">kilos</label>
+  </div>
+  <div class="row">
+      <h2>Your weight</h2>  
+      <input type="number" id="weight" min="1" max="60000000000000">
+  </div>
+  <a href="#" class="my-btn" id="start" onclick="wilksScore()">Calculate</a>
+<div id="snackbar">
+  <p id="wilks"></p></div>
+
+  <p class="light">Made with <i class="fa fa-heart" aria-hidden="true"></i> by Margaret Gorguissian</p>
+</div>
+
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
