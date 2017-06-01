@@ -3,18 +3,21 @@
   margin: 0;
   padding: 0;
 }
+
 body{
 background: #fff;
 color: #fff;
 text-align: center;
 font-family: 'Open Sans', sans-serif;
 }
+
 #start{
   margin-top: 35px;
   border-radius: 10px;
   border: 4px solid #226be2;
   padding: 5px 20px;
 }
+
 h2{
   height: 30px;
   display: inline-block;
@@ -52,20 +55,11 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0; 
 }
 
-/*input[type=number], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}*/
-
 input[type=radio] {
     display:none; 
     margin:10px;
 }
+
 input[type=radio] + label{
   height: 30px;
   display: inline-block;
@@ -86,6 +80,7 @@ input[type=radio]:checked + label {
   font-family: 'Pacifico', cursive;
   font-size: 40px !important;
 }
+
 .my-btn{
   border-radius: 5px;
   background:none;
@@ -95,9 +90,11 @@ input[type=radio]:checked + label {
   position: relative;
   top: -18px;
 }
+
 .my-btn:hover {
 background: #226be2;
 }
+
 #reset{
   padding: 5px 5px;
 }
@@ -110,6 +107,7 @@ background: #226be2;
     -moz-column-width: 100px; /* Firefox */
     column-width: 100px;
 }
+
 .col2{
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
@@ -118,36 +116,39 @@ background: #226be2;
     -moz-column-width: 150px; /* Firefox */
     column-width: 150px;
 }
+
 .h6, h6, h1{
   font-size: 14px !important;
 }
+
 i{
   color: #e76f7d;
 }
+
 #container{
   width: 500px;
   height: auto;
   background: #3d3d3d;
   margin: 50px auto;
-padding:20px 0;
-border-radius: 10px;
+  padding:20px 0;
+  border-radius: 10px;
 }
 .light{
   color: #999999;
   text-align: center;
   margin: 14px 0 0;
-font-size: 10px;
+  font-size: 10px;
 }
 @media (max-width: 768px){
   #container{
-  width: 100%;
-  height: auto;
-  background: #3d3d3d;
-  margin: 0 auto;
-padding:20px 0;
-min-width: 300px;
-border-radius: 0;
-}
+    width: 100%;
+    height: auto;
+    background: #3d3d3d;
+    margin: 0 auto;
+    padding:20px 0;
+    min-width: 300px;
+    border-radius: 0;
+  }
 }
 
 
