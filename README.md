@@ -8,3 +8,4 @@
 - **style.css**:
 - **client.js**: 
 ## References
+- The initial CSS was "remixed" from Denis Junozovic's pomodoro-clock on Glitch.
